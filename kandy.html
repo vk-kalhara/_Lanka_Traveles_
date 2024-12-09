@@ -1,0 +1,268 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Lanka - Dark Theme</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #ddd;
+            line-height: 1.6;
+            background-color: #121212;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        /* Header Section */
+        .header {
+            background-color: #1f1f1f;
+            color: #f5da42;
+            text-align: center;
+            padding: 20px;
+            animation: fadeInDown 1.5s ease;
+        }
+
+        .header .logo h1 {
+            margin: 0;
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        .header .logo p {
+            margin: 5px 0 15px;
+            font-size: 16px;
+            color: #ccc;
+        }
+
+        .header .cta-button {
+            background-color: #f5da42;
+            color: #1f1f1f;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            animation: pulse 2s infinite;
+        }
+
+        .header .cta-button:hover {
+            background-color: #e1c635;
+        }
+
+        /* Main Content */
+        .content {
+            padding: 20px;
+        }
+
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        /* Card Styles */
+        .card {
+            background-color: #1f1f1f;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+            text-align: center;
+            padding: 15px;
+            transform: scale(0.95);
+            animation: fadeInUp 1s ease forwards;
+        }
+
+        .card:hover {
+            transform: scale(1);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.7);
+        }
+
+        .card h2 {
+            font-size: 20px;
+            margin: 15px 0 10px;
+            color: #f5da42;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #aaa;
+        }
+
+        .card .read-more {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #f5da42;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .card .read-more span {
+            font-size: 18px;
+            margin-left: 5px;
+        }
+
+        .card .read-more:hover {
+            color: #e1c635;
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .card-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>lanka traveles</h1>
+            <p>No. 1 Monthly Guide to Travellers in Sri Lanka</p>
+        </div>
+
+        <button class="cta-button">Kandy visit places</button>
+    </header>
+
+    <main class="content">
+        <section class="card-container">
+            <div class="card">
+                <img src="images/temple.jpg" alt="Colombo">
+                <h2>the temple of the tooth</h2>
+                <p>
+Nestled close to the Udawattakele Sanctuary, The Temple of the Sacred Tooth Relic is one of the most important shrines of Sri Lanka. Also named as Dalada Maligawa, this temple is based in the royal palace of the Kingdom of Kandy
+Housing the legendary Budda tooth, the temple is a World Heritage site though very little are the remnants of the original temple built around 1600. Amazing ornamentation with golden fence and extravagant Canadian architecture makes it a blissful sight for the visitors.
+
+Dedicated monks unanimously chant the prayers of Malwatte and Aegirine, three times every day, during dawn, noontime and evening at the inner temple. Every Wednesday a holy symbolic bath of the Relic is done is fragrant water and that water is distributed among the visitors known to have healing powers.
+<br>
+Location: Royal Palace, Kandy
+<br>
+Timings: 5:30 AM to 8:00 PM
+<br>
+</p>
+               <a href="#" class="read-more">Read More <span>➔</span></a>
+            </div>
+            <div class="card">
+                <img src="images/Bahiravokanda.jpg" alt=".....">
+                <h2>Bahiravokanda Vihara Buddha Statue</h2>
+                <p>This place showcases a breathtaking view of the entire Kandy town. The 88ft high statue of Buddha is something one should not miss while in Kandy. The white statue can be seen from any part of the Peradeniya city as it is strategically located on top of the Bahirava Kanda (devil’s) hill. You can either climb the steps to reach the viewpoint or else hire a tuk-tuk to do so. The beauty of the statue doubles during the night when it is lit by lamps. Best hour to visit this place is early morning or after sunset.
+
+This place showcases a breathtaking view of the entire Kandy town. The 88ft high statue of Buddha is something one should not miss while in Kandy. The white statue can be seen from any part of the Peradeniya city as it is strategically located on top of the Bahirava Kanda (devil’s) hill.
+
+You can either climb the steps to reach the viewpoint or else hire a tuk-tuk to do so. The beauty of the statue doubles during the night when it is lit by lamps. Best hour to visit this place is early morning or after sunset. This place should be definitely there on your list of places to visit in Sri Lanka.
+
+Highlights: Panoramic view of the city down, including a view of the lake, tea factory, and football stadium; gallery that has artefacts based on the life of Buddha; a souvenir shop which has lovely goodies at a much friendlier price
+<br>
+Location: Peradeniya, Kandy.
+<br>
+Price: Approximate price starts from 200 LKR.
+<br>
+Timings: Open 24 hours a day.<br> </p>
+                <a href="#" class="read-more">Read More <span>➔</span></a>
+            </div>
+            <div class="card">
+                <img src="images/view.jpg" alt="......">
+                <h2>Kandy View Point</h2>
+                <p>The mesmerizing view point is located on the Rajapihilla Mawatha and is ranked 5th out of 105 tourist attractions in Kandy. The place is located near the Kandy Lake and is enclosed in breathtaking landscapes of mountains and meadows. From the city, you have to take the Rajapihilla Mawatha Route, after which a 1 km steep climb will guide you to the view point. You can also hire a tuk-tuk to reach the top.The panoramic view that you would get to see is worth the pain of the ascent. The entire Kandy town lies ahead of your eye, and from the top, you can also spot the Kandy lake and Dalada Maligawa.
+
+The mesmerizing view point is located on the Rajapihilla Mawatha and is ranked 5th out of 105 tourist attractions in Kandy. The place is located near the Kandy Lake and is enclosed in breathtaking landscapes of mountains and meadows. From the city, you have to take the Rajapihilla Mawatha Route, after which a 1 km steep climb will guide you to the view point.
+
+You can also hire a tuk-tuk to reach the top.The panoramic view that you would get to see is worth the pain of the ascent. The entire Kandy town lies ahead of your eye, and from the top, you can also spot the Kandy lake and Dalada Maligawa.
+<br>
+Highlights: Panoramic view of the city, souvenir shops, art galleries
+<br>
+Location: Rajapihilla Mawatha, Kandy
+<br>
+Timings: Anytime during the day.</p>
+                <a href="#" class="read-more">Read More <span>➔</span></a>
+            </div>
+            <div class="card">
+                <img src="images/Huluganga.jpg" alt="...">
+                <h2>Huluganga falls</h2>
+                <p>Huluganga Falls, located in Sri Lanka, is a captivating natural wonder. Nestled amidst lush greenery, the waterfall cascades down rocky cliffs, creating a picturesque scene. 
+
+Huluganga Falls, situated in Sri Lanka's central highlands, is a mesmerizing natural attraction. The waterfall gracefully tumbles down a series of rocky outcrops, surrounded by lush greenery and pristine landscapes. The journey to the falls offers a scenic trek through verdant forests, making it a haven for nature enthusiasts. Huluganga's secluded charm and refreshing ambiance make it an ideal escape for those seeking serenity.</p>
+                <a href="#" class="read-more">Read More <span>➔</span></a>
+            </div>
+            <div class="card">
+                <img src="images/Udawatta.jpg" alt="Kandy">
+                <h2>Udawattekele Sanctuary</h2>
+                <p>The Udawattekele Sanctuary, also known as Royal Park Palace is located at the hilly terrains of the Temple of Tooth Relic. The sanctuary scatters around 257 acres and is deemed as the most important Bio Reserve of the country. The sanctuary, centuries back was a kingdom named Kandyan and jungle area on the far side of the palace was known as the Uda Wasala Watta or the upper palace garden; hence the name.
+
+The forest reserve was made into a sanctuary in 1938. Additionally, the forest’s catchment areas provide fresh water to the lake and the city avail its air purification supplies from this royal forest reserve.
+
+The Udawattekele Sanctuary, also known as Royal Park Palace is located at the hilly terrains of the Temple of Tooth Relic. The sanctuary scatters around 257 acres and is deemed as the most important Bio Reserve of the country.
+
+The sanctuary, centuries back was a kingdom named Kandyan and jungle area on the far side of the palace was known as the Uda Wasala Watta or the upper palace garden; hence the name.
+
+The forest reserve was made into a sanctuary in 1938. Additionally, the forest’s catchment areas provide fresh water to the lake and the city avail its air purification supplies from this royal forest reserve.
+<br>
+Highlights: Quite a few Buddhist temples, water pond, Kodimale Peak, Senkanda Cave and Garrison Cemetery.
+<br>
+Entry Fee: Rs. 570 for foreigners and Rs. 30 for Srilankans
+<br>
+Location: Wevelpitiya Road, Kandy
+<br>
+ Timings: Everyday. But it is safe not to visit the sanctuary during rainy season</p>
+                <a href="#" class="read-more">Read More <span>➔</span></a>
+            </div>
+            <div class="card">
+                <img src="images/Lankatilaka.jpg" alt="">
+                <h2>Lankatilaka Vihara Temple </h2>
+                <p>The Lankatilaka Temple or Lankatilaka Vihara is one of the most ancient Buddhist temples. It’s unique architecture is known across the world. What makes this temple famous is the fact that it is built on a base of a natural rock called the Panhalgala Rock and stands stable even today.
+
+There are two different sides of the temple- the East and the West- both showcase the intricate designs and delicate Sinhalese sculptures. You will also find some breathtaking paintings and sculptures of the Kandyan era in this temple.
+
+The Lankatilaka Temple or Lankatilaka Vihara is one of the most ancient Buddhist temples. It’s unique architecture is known across the world. What makes this temple famous is the fact that it is built on a base of a natural rock called the Panhalgala Rock and stands stable even today.
+
+There are two different sides of the temple- the East and the West- both showcase the intricate designs and delicate Sinhalese sculptures. You will also find some breathtaking paintings and sculptures of the Kandyan era in this temple.
+
+The surrounding panoramic views of the paddy fields and mountains and the quiet surroundings make this temple all the more serene and peaceful and one of the most popular places to see in Kandy.
+<br>
+Location: Koilkonda, Sri Lanka
+<br>
+Highlight: Sinhalese sculptures, paintings, and art</p>
+                <a href="#" class="read-more">Read More <span>➔</span></a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

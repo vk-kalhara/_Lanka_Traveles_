@@ -1,0 +1,250 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Lanka - Dark Theme</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #ddd;
+            line-height: 1.6;
+            background-color: #121212;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        /* Header Section */
+        .header {
+            background-color: #1f1f1f;
+            color: #f5da42;
+            text-align: center;
+            padding: 20px;
+            animation: fadeInDown 1.5s ease;
+        }
+
+        .header .logo h1 {
+            margin: 0;
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        .header .logo p {
+            margin: 5px 0 15px;
+            font-size: 16px;
+            color: #ccc;
+        }
+
+        .header .cta-button {
+            background-color: #f5da42;
+            color: #1f1f1f;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            animation: pulse 2s infinite;
+        }
+
+        .header .cta-button:hover {
+            background-color: #e1c635;
+        }
+
+        /* Main Content */
+        .content {
+            padding: 20px;
+        }
+
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        /* Card Styles */
+        .card {
+            background-color: #1f1f1f;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+            text-align: center;
+            padding: 15px;
+            transform: scale(0.95);
+            animation: fadeInUp 1s ease forwards;
+        }
+
+        .card:hover {
+            transform: scale(1);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.7);
+        }
+
+        .card h2 {
+            font-size: 20px;
+            margin: 15px 0 10px;
+            color: #f5da42;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #aaa;
+        }
+
+        .card .read-more {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #f5da42;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .card .read-more span {
+            font-size: 18px;
+            margin-left: 5px;
+        }
+
+        .card .read-more:hover {
+            color: #e1c635;
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .card-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>lanka traveles</h1>
+            <p>No. 1 Monthly Guide to Travellers in Sri Lanka</p>
+        </div>
+
+        <button class="cta-button">Badulla visit places</button>
+    </header>
+
+    <main class="content">
+        <section class="card-container">
+            <div class="card">
+                <img src="images/Nine.jpg" alt="Colombo">
+                <h2>Nine Arches Bridge</h2>
+                <p>The Nine Arches Bridge is one of the most beautiful landmarks of Sri Lanka and amongst the top places to visit in Ella. There is an interesting story behind this bridge. When the British stopped the construction of this bridge mid-way due to lack of steel during World War 1, the locals constructed it using stone and bricks. 
+
+The bridge has stood strong without a single piece of steel since then. The setting of the bridge is extremely charming and is amongst the most popular tourist places in Ella. It is located inside a dense forest near a quaint little village with tea plantations surrounding it. Watching the old world trains pass through this bridge is a sight most loved by the tourists. 
+<br>
+
+Location: Between Ella and Damodara Station
+<br>
+Timings: The bridge is approachable all day around. However, early morning sunrise is the best time to visit. 
+<br>
+Price: There is no entry fee
+</p>
+               <a href="#" class="read-more">Read More <span>➔</span></a>
+            </div>
+            <div class="card">
+                <img src="images/Ravana.jpg" alt=".....">
+                <h2>Ravana Falls</h2>
+                <p>Sri Lanka is abundant with the legends of Ramayana. So much so that even the natural landscapes have compelling stories associated with them. The Ravana Falls and the nearby caves are said to be some of the places where the demon god Ravana hid. These legends and the striking landscape of this Ella attraction pulls many travellers to them. 
+
+The waterfall is around 82 ft. in height and is layered in three tiers. The third tier is approachable after a sharp rock climb and rewards with some amazing views of the dense greens and the rocky landscape. 
+
+<br>
+Location: A 23, Ravana Wildlife Sanctuary, Ella
+<br>
+Timings: March- June, December- February
+<br>
+Price: There is no entry fee</p>
+                <a href="#" class="read-more">Read More <span>➔</span></a>
+            </div>
+            <div class="card">
+                <img src="images/Little.jpg" alt="......">
+                <h2>Little Adam's</h2>
+                <p>The mesmerizing view point is located on the Rajapihilla Mawatha and is ranked 5th out of 105 tourist attractions in Kandy. The place is located near the Kandy Lake and is enclosed in breathtaking landscapes of mountains and meadows. From the city, you have to take the Rajapihilla Mawatha Route, after which a 1 km steep climb will guide you to the view point. You can also hire a tuk-tuk to reach the top.The panoramic view that you would get to see is worth the pain of the ascent. The entire Kandy town lies ahead of your eye, and from the top, you can also spot the Kandy lake and Dalada Maligawa.
+
+The mesmerizing view point is located on the Rajapihilla Mawatha and is ranked 5th out of 105 tourist attractions in Kandy. The place is located near the Kandy Lake and is enclosed in breathtaking landscapes of mountains and meadows. From the city, you have to take the Rajapihilla Mawatha Route, after which a 1 km steep climb will guide you to the view point.
+
+You can also hire a tukDue to its natural landscape, Ella has many quaint and rustic hiking trails. Little Adam’s Peak is one such popular trail that should not be missed. It is a short 50-60 minutes trek that takes you through the world famous tea plantations of the region. The greenery is a respite to the eyes and the intoxicating fragrance of the tea leaves further adds to the experience. 
+
+Once you reach the top of the Little Adam’s Peak, you will see a Buddha statue backdropped against the mountains. 
+<br>
+
+Location: Ella- Passara Road, Ella 90090
+<br>
+Timings: The best time for the hike is at sunrise or the sunset. The peak is approachable all year around.
+<br>
+Price: There is no entry fee. </p>
+                <a href="#" class="read-more">Read More <span>➔</span></a>
+            </div>
+            <div class="card">
+                <img src="images/Lipton.jpg" alt="...">
+                <h2>Lipton’s Seat</h2>
+                <p>The Lipton’s Seat lookout is one of Sri Lanka's most impressive viewpoints (unless it's misty and cloudy of course, which is why early morning is the best time to visit). The Scottish tea baron Sir Thomas Lipton used to survey his burgeoning empire from here, and today it's said you can see across emerald hills and tea estates to no fewer than seven different provinces.
+
+To hike to the lookout, take the signed narrow paved road from the Dambatenne Tea Factory and climb about 8km through lush tea plantations. It's also possible to drive up – tuk-tuks charge around Rs 2500 return from Haputale. Look forward to the company of Tamil tea pickers going off to work as you walk uphill. Enterprising locals sell drinks and snacks at the top.</p>
+                <a href="#" class="read-more">Read More <span>➔</span></a>
+            </div>
+            <div class="card">
+                <img src="images/nildiya.jpg" alt="Kandy">
+                <h2>nil diya pokuna</h2>
+                <p>Step into the realm of myth and mystery as you discover the enchanting ‘Blue Water Pond,’ a place steeped in legends associated with the infamous King Ravana. This hidden gem nestled in Karandagolla unveils the largest underground cave ever unearthed in our country.
+
+Prepare to be captivated by the tale of King Ravana, who is said to have kidnapped the noble Sita and concealed her within the depths of this mystical cave. As you venture deeper, an extraordinary sight awaits—a pristine pond glistening with still, crystal-clear water, bestowing upon this place an ethereal charm like no other.
+
+Embarking on this extraordinary journey is not for the faint of heart. Traverse treacherous paths, carved into narrow stone crevices and expansive hollow caverns, shrouded in an ominous darkness that sends shivers down your spine. Every step demands utmost caution, for a single misstep could prove perilous.
+
+Rumors abound of an intricate tunnel network, leading to distant realms far below the surface, adding another layer of intrigue to this already mesmerizing expedition. To reach the Ella Wellawaya Road, two paths await—journey approximately 6km from the majestic Ravana Falls, then traverse 2km along the Amba Vatuaya Road to the south. Our recommendation is to enter through the private garden on the right-hand side, then proceed for around 3km to reach the summit.</p>
+                <a href="#" class="read-more">Read More <span>➔</span></a>
+            </div>
+            <div class="card">
+                <img src="images/Dunhinda.jpg" alt="">
+                <h2>Dunhinda Falls</h2>
+                <p>Dunhinda Falls is a waterfall located about 5 kilometres (3.1 mi) from Badulla in the lower central hills of Sri Lanka.
+
+The waterfall, which is 64 metres (210 ft) high, gets its name from the smoky dew drops spray, (Dun in sinhala means mist or smoke) which surrounds the area at the foot of the waterfall.[1]
+
+The fall is created by the Badulu Oya which flows through Badulla.</p>
+                <a href="#" class="read-more">Read More <span>➔</span></a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
